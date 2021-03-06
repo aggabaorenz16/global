@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .case {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    } 
+    .covid {
+        height: 300px;
+        padding: 25px;
+        margin: 40px;
+        margin-top: 180px;
+        width: 350px;
+        border-radius: 10px;
+        text-align: center;
+    } h3 {
+        font-size: 30px;
+    } 
+    p {
+        padding: 40px;
+        font-family: 'Numbers Claimcheck';
+        font-size: 30px;
+    }
+}
+@media (max-width : 480px) {
+    .case {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .covid {
+        height: 300px;
+        padding: 20px;
+        margin: 60px;
+        width: 220px;
+        border-radius: 10px;
+    } p {
+    padding: 30px;
+    }
+}
+@media (max-width : 780px) and (min-width : 481px) {
+    .case {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .covid {
+        height: 300px;
+        padding: 20px;
+        margin: 60px;
+        width: 220px;
+        border-radius: 10px;
+    } p {
+    padding: 30px;
+    }
+}
